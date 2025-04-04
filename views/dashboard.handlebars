@@ -1,0 +1,35 @@
+<div class="section is-background is-fullheight"
+  style="background-image: url('./images/cloud.jpg'); background-size: cover;"
+>
+    {{!-- bulma used to display partials on screen --}}
+    <div class="columns mt-4" id="has-current-day" data-current-day="{{userInfo.days.[0].date_created}}">
+        <div class="column box is-6">
+            {{#with userInfo}}
+            {{>calendar}}
+            {{/with}}
+        </div>
+        <div class="column p-6 is-6">
+            {{#with userInfo.days.[0]}}
+            {{>checkin}}
+            {{/with}}
+        </div>
+    </div>
+    
+    {{!-- Add all partial that use userInfo --}}
+    {{#with userInfo}}
+    <div class="columns  mt-6">
+        <div class="column is-6 box" style="margin: 20px;">
+            {{>meds}}
+        </div>
+        <div class="column is-6 box" style="margin: 20px;">
+            {{>wellbeing}}
+        </div>
+    </div>
+    {{!-- {{>journal}} --}}
+    <div class="journal">
+        {{>journal}}
+    </div>
+    {{/with}}
+</div>
+{{!-- attaching corresponding js --}}
+<script src="./js/dashboard.js"></script>

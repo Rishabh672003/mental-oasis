@@ -1,0 +1,14 @@
+[
+  {
+    "checklist_complete": false,
+    "user_id" : 1
+  },
+  {
+    "checklist_complete": false,
+    "user_id": 2
+  },
+  {
+    "checklist_complete": false,
+    "user_id": 3
+  }
+]

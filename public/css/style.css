@@ -1,0 +1,101 @@
+    /* adding a background to entire main handlebars */
+    html, body, main {
+       height: 100%;
+       background-color: white;
+       margin: 0;
+    }
+    /* navbar section to follow every page */
+    .section {
+       min-height: 100vh;
+    }
+
+    .login-box {
+       border: 1px solid #dbdbdb;
+       border-radius: 6px;
+       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+       padding: 20px;
+       max-width: 500px;
+       margin: 0 auto;
+       background-color: #f1f4f0;
+       margin-top: 17rem
+    }
+
+    .navbar {
+       background-color: rgb(206, 135, 192);
+
+    }
+
+    #text {
+       font-weight: bold;
+       font-family: 'Poppins', sans-serif;
+    }
+
+    /* .flex-container and .date-image are in checkin.handlebar */
+    .flex-container {
+      display: flex;
+      align-items: center;
+    }
+    .date-image {
+      width: 10%;
+    }
+    
+    /* signup css */
+    .hero-body {
+      background: linear-gradient(#50af8c, #9198e5);
+      height: 100%;
+    }
+   
+    .t3 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 1rem;
+    }
+    .sub{
+      display: flex;
+      justify-content: center;
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .form-card {
+      background-color: #ffffffa3;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+    }
+    .form-card h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+    .form-card .field label {
+      font-weight: bold;
+    }
+    .form-card .field:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
+    .form-card .button {
+      background-color: #0077B5;
+      color: #FFFFFF;
+    }
+    .form-card .button:hover {
+      background-color: #005E90;
+      color: #FFFFFF;
+    }
+
+  /* css for about page */
+    
+.chaosimg, .growthimg{
+  display: inline;
+  height: 500px;
+  width: 500px;
+  margin-top: 300px;
+}
+
+.t1{
+  font-size: 60px;
+}
+
+
+.date-image1 {
+width: 5%;
+}

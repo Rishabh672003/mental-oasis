@@ -1,0 +1,14 @@
+[
+    {
+        "wellbeing_input": ["testing", "testing2"],
+        "user_id": 1
+    },
+    {
+        "wellbeing_input": ["testing", "testing2"],
+        "user_id": 2
+    },
+    {
+        "wellbeing_input": ["testing", "testing2"],
+        "user_id": 3
+    }
+]
